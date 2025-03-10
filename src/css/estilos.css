@@ -4,6 +4,7 @@ body{
 }
 
 .cabecalho{
+    overflow: hidden;
     height: 80px;
     background-color: #0b0b0b;
     display: flex;
@@ -24,7 +25,7 @@ body{
 
 .cabecalho .menu{
     display: flex;
-    gap: 30px;
+
 }
 
 .cabecalho .menu li a{
@@ -73,6 +74,10 @@ body{
     gap: 32;
     padding: 80px 80px 80px 170px;
     max-width: 780px;
+}
+
+.informacoes {
+    gap: 30px;
 }
 
 .home .informacoes img{
@@ -125,7 +130,7 @@ body{
 }
 
 .compre-ja{
-    
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,7 +170,7 @@ body{
     backdrop-filter: blur(10px);
 }
 
-.compre-ja .informacoes {
+.compre-ja .informacoes2 {
     
     display: flex;
     flex-direction: column;
@@ -173,20 +178,20 @@ body{
 
 }
 
-.compre-ja .informacoes h3{
+.compre-ja .informacoes2 h3{
     font-family: 'ChaletComprime';
     font-size: 52px;
     font-weight: 700;
 }
 
-.compre-ja .informacoes p{
+.compre-ja .informacoes2 p{
     color: #e8e8e8;
     font-family: 'Chalet';
     font-size: 16px;
     line-height: 1.6;
 }
 
-.compre-ja .informacoes .plataformas {
+.compre-ja .informacoes2 .plataformas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

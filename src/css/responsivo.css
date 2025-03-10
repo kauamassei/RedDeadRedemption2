@@ -1,3 +1,7 @@
+@media (max-width: 1300px) {
+    
+}
+
 @media (max-width: 876px){
     .cabecalho{
         justify-content: center;
@@ -23,8 +27,9 @@
         font-size: 40px;
     }
 
-    .compre-ja .cartao{
-        width: 70%; 
+    .cartoes{
+        display: flex;
+        flex-direction: column;
     }
 }
 

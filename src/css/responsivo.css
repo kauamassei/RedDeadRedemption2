@@ -1,72 +1,80 @@
-@media (max-width: 1300px) {
+@media (max-width: 876px) {
+  .cabecalho {
+    flex-direction: column;
+    height: 110px;
     
+  }
+
+  .cabecalho .logo {
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .cabecalho .menu {
+    padding: 0px 0px  20px 0px;
+  }
+
+  .cabecalho .menu li a {
+    white-space: nowrap;
+  }
+
+  .home .informacoes {
+    padding: 30px;
+  }
+
+  .home .informacoes img {
+    max-width: 100px;
+  }
+
+  .home .informacoes .titulo {
+    font-size: 40px;
+  }
+
+  .cartoes {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media (max-width: 876px){
-    .cabecalho{
-        justify-content: center;
-        flex-direction: column;
-        padding: 50px 0;
-        gap: 15px;
-    
-}
+@media (max-width: 768px) {
+  .compre-ja {
+    padding: 30px;
+  }
 
-    .cabecalho .menu li a{
-        padding: 15px;
-    }
+  .compre-ja .cartao {
+    padding: 80px 20px;
+    width: 100%;
+  }
 
-    .home .informacoes{
-        padding: 30px;
-    }
+  .compre-ja .informacoes h3 {
+    font-size: 35px;
+  }
+  .compre-ja .informacoes .plataformas {
+    flex-direction: column;
+  }
+  .btn-plataforma {
+    margin-top: 15px;
+    padding: 15px;
+  }
 
-    .home .informacoes img{
-        max-width: 100px;
-    }
-
-    .home .informacoes .titulo{
-        font-size: 40px;
-    }
-
-    .cartoes{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 768px){
-    .compre-ja{
-        padding: 30px;
-    }
-
-    .compre-ja .cartao{
-        padding: 80px 20px;
-        width: 100%;
-    }
-
-    .compre-ja .informacoes h3{
-        font-size: 35px;
-
-    }
-    .compre-ja .informacoes .plataformas{
-        flex-direction: column;
-
-    }
-    .btn-plataforma{
-        margin-top: 15px;
-        padding: 15px;
-    }
-
-    .btn-comprar{
-        width: 100%;
-    }
+  .btn-comprar {
+    width: 100%;
+  }
 }
 
 @media (max-width: 425px) {
-        main::after {
-            background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
-    }
-    
-    .compre-ja .cartao .capa-do-jogo{
-        max-width: 80%;
-    }
+  main::after {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.4) 100%,
+      transparent 65%
+    );
+  }
+
+  .compre-ja .cartao .capa-do-jogo {
+    max-width: 80%;
+  }
 }
